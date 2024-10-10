@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inicio{
+    height: 100vh;
+    
+}
+
+#inicio h1{
+    text-align: center;
+   
+    font-size: 40px;
+    
+
+}
+#inicio img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: 30px 0;
+    
+   
+
+}
+#inicio hr{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+#inicio h2{
+    font-size: 30px;
+    margin: 80px 0px;
+    text-align: center;
+}
+#inicio button{
+    display: block;
+    margin: auto;
+}
+#gl{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+#btncap{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.cta-button{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(236, 18, 236);
+    font-size: 15px;
+    transition: padding 0.3s;
+    color: white;
+}
+.cta-button:hover{
+    padding: 25px;
+}
+#ftrtext{
+    margin: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+#inicio{
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/1678120729579339650/40A46978EF29C7099912D8CA459BBC9FAC764F2E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+@media(max-width:900px){
+body{
+    max-height: 400px;
+}
+#inicio{
+    height: 100vh;
+    
+}
+    .container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#inicio h1{
+    text-align: center;
+    margin: 0px 0px;
+    font-size: 30px;
+    
+
+}
+#inicio img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: 30px 0;
+    
+   
+
+}
+#inicio hr{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+#inicio h2{
+    font-size: 20px;
+    margin: 50px 0px;
+    text-align: center;
+}
+#inicio button{
+    display: block;
+    margin: auto;
+}
+#gl{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#btncap{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.cta-button{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(236, 18, 236);
+    font-size: 15px;
+    transition: padding 0.3s;
+    color: white;
+}
+.cta-button:hover{
+    padding: 25px;
+}
+#ftrtext{
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+}
+
